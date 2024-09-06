@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_add_entry"
+        android:icon="@drawable/ic_add"
+        android:title="Add Entry" />
+    <item
+        android:id="@+id/nav_view_entries"
+        android:icon="@drawable/ic_view_list"
+        android:title="View Entries" />
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings" />
+    <item
+        android:id="@+id/nav_countries_visited"
+        android:icon="@drawable/ic_entry_icon"
+        android:title="Countries Visited" />
+    <item
+        android:id="@+id/nav_about_us"
+        android:icon="@drawable/ic_about_us"
+        android:title="About Us" />
+</menu>

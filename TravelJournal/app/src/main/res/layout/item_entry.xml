@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/entry_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entry Content"
+        android:textSize="16sp"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/entry_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entry Location"
+        android:textSize="14sp"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/entry_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entry Date"
+        android:textSize="14sp"
+        android:paddingBottom="4dp" />
+
+    <ImageView
+        android:id="@+id/entry_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="Entry Image"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/edit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="Edit"
+            android:src="@android:drawable/ic_menu_edit" />
+
+        <ImageButton
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Delete"
+            android:src="@android:drawable/ic_menu_delete"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>

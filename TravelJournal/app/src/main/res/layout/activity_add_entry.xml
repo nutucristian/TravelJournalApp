@@ -1,0 +1,42 @@
+<!-- activity_add_entry.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <ImageView
+        android:id="@+id/imageViewEntry"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        android:background="@color/gray" />
+
+    <EditText
+        android:id="@+id/editTextContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your journal entry here" />
+
+    <EditText
+        android:id="@+id/editTextLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter location here"
+        android:inputType="text"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/buttonAddImage"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="Add Image" />
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE" />
+
+
+</LinearLayout>

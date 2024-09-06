@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Travel Journal</string>
+    <string name="title">Welcome to Travel Journal</string>
+    <string name="add_entry">Add Entry</string>
+    <string name="settings">Settings</string>
+    <string name="content">Content</string>
+    <string name="title_activity_view_entry">ViewEntryActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="save">Save</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="channel_name">Travel Journal Notifications</string>
+    <string name="channel_description">Notifications for Travel Journal app</string>
+    <string name="enter_your_entry">Enter your entry</string>
+    <string name="nav_add_entry">Add Entry</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_view_entries">View Entries</string>
+    <string name="view_entries">View Entries</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="entry_icon">Entry Icon</string>
+    <string name="entry_image">Entry Image</string>
+    <string name="location">Location: San Jose</string>
+    <string name="weather">Weather: 59.4°F</string>
+    <string name="date_time">Date/time: 2016-12-10 01:40 AM</string>
+    <string name="enter_description">Enter description</string>
+    <string name="save_button_description">Save Entry</string>
+    <string name="entries_for_date">Entries for date</string>
+    <string name="delete_entry">Delete Entry</string>
+    <string name="entry_icon_description">Entry Icon</string>
+    <string name="enter_journal_entry">Enter your journal entry here</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Edit</string>
+    <string name="google_maps_key">AIzaSyAO3Rrygc72mzD3MZXAQafzraRHhUWO99U</string>
+
+
+
+
+
+
+</resources>
+
+

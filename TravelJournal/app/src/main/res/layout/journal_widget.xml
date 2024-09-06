@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/widget_background"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/widget_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Travel Journal Widget"
+        android:textSize="18sp"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/widget_button_open_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/your_app_primary_color"
+        android:text="Open App"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/widget_button_add_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/your_app_primary_color"
+        android:text="Add Entry"
+        android:textColor="@color/white" />
+</LinearLayout>

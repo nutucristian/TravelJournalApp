@@ -1,0 +1,73 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Journal pages -->
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M8,16h92c4.4,0 8,3.6 8,8v60c0,4.4 -3.6,8 -8,8H8c-4.4,0 -8,-3.6 -8,-8V24c0,-4.4 3.6,-8 8,-8z"/>
+
+    <!-- Journal cover -->
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M4,12h100v76H4z"/>
+
+    <!-- Lines on the left page -->
+    <path
+        android:fillColor="#757575"
+        android:pathData="M16,20h36v2H16z"/>
+    <path
+        android:fillColor="#757575"
+        android:pathData="M16,28h36v2H16z"/>
+    <path
+        android:fillColor="#757575"
+        android:pathData="M16,36h36v2H16z"/>
+    <path
+        android:fillColor="#757575"
+        android:pathData="M16,44h36v2H16z"/>
+    <path
+        android:fillColor="#757575"
+        android:pathData="M16,52h36v2H16z"/>
+    <path
+        android:fillColor="#757575"
+        android:pathData="M16,60h36v2H16z"/>
+    <path
+        android:fillColor="#757575"
+        android:pathData="M16,68h36v2H16z"/>
+    <path
+        android:fillColor="#757575"
+        android:pathData="M16,76h36v2H16z"/>
+
+    <!-- Lines on the right page -->
+    <path
+        android:fillColor="#757575"
+        android:pathData="M56,20h36v2H56z"/>
+    <path
+        android:fillColor="#757575"
+        android:pathData="M56,28h36v2H56z"/>
+    <path
+        android:fillColor="#757575"
+        android:pathData="M56,36h36v2H56z"/>
+    <path
+        android:fillColor="#757575"
+        android:pathData="M56,44h36v2H56z"/>
+    <path
+        android:fillColor="#757575"
+        android:pathData="M56,52h36v2H56z"/>
+    <path
+        android:fillColor="#757575"
+        android:pathData="M56,60h36v2H56z"/>
+    <path
+        android:fillColor="#757575"
+        android:pathData="M56,68h36v2H56z"/>
+    <path
+        android:fillColor="#757575"
+        android:pathData="M56,76h36v2H56z"/>
+
+    <!-- Larger Pen -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M80,90l12,-12c0.8,-0.8 0.8,-2 0,-2.8l-4.2,-4.2c-0.8,-0.8 -2,-0.8 -2.8,0l-12,12c-0.8,0.8 -0.8,2 0,2.8l4.2,4.2c0.8,0.8 2,0.8 2.8,0zM78,92l-4.2,-4.2l-4.2,4.2c-0.8,0.8 -0.8,2 0,2.8l4.2,4.2c0.8,0.8 2,0.8 2.8,0l4.2,-4.2c0.8,-0.8 0.8,-2 0,-2.8z"/>
+</vector>

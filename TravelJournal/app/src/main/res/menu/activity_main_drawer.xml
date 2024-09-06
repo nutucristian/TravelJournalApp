@@ -1,0 +1,69 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_add_entry"
+        android:icon="@drawable/ic_add"
+        android:title="Add Entry" />
+    <item
+        android:id="@+id/nav_view_entries"
+        android:icon="@drawable/ic_view_list"
+        android:title="View Entries" />
+    <item
+        android:id="@+id/nav_countries_visited"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="Countries Visited" />
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings" />
+
+    <group android:checkableBehavior="none">
+    <item
+        android:id="@+id/nav_separator1"
+        android:title=""
+        android:enabled="false"
+        android:visible="true"
+        android:icon="@android:color/transparent" />
+    <item
+        android:id="@+id/nav_separator2"
+        android:title=""
+        android:enabled="false"
+        android:visible="true"
+        android:icon="@android:color/transparent" />
+    <item
+        android:id="@+id/nav_separator3"
+        android:title=""
+        android:enabled="false"
+        android:visible="true"
+        android:icon="@android:color/transparent" />
+        <item
+            android:id="@+id/nav_separator4"
+            android:title=""
+            android:enabled="false"
+            android:visible="true"
+            android:icon="@android:color/transparent" />
+        <item
+            android:id="@+id/nav_separator5"
+            android:title=""
+            android:enabled="false"
+            android:visible="true"
+            android:icon="@android:color/transparent" />
+        <item
+            android:id="@+id/nav_separator6"
+            android:title=""
+            android:enabled="false"
+            android:visible="true"
+            android:icon="@android:color/transparent" />
+        <item
+            android:id="@+id/nav_separator7"
+            android:title=""
+            android:enabled="false"
+            android:visible="true"
+            android:icon="@android:color/transparent" />
+    </group>
+
+    <item
+        android:id="@+id/nav_about_us"
+        android:icon="@drawable/ic_about_us"
+        android:title="About Us" />
+
+</menu>

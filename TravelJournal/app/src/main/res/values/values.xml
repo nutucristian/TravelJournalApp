@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Example of other resources that might be in values.xml -->
+    <!-- Move color and string resources to their respective files to avoid duplication -->
+    <!-- If there are no other resources, you can delete values.xml -->
+</resources>
